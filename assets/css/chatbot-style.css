@@ -1,0 +1,69 @@
+#jeevsutra-chatbot-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+}
+
+#jeevsutra-chat-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: maroon url("../images/default-avatar.png") no-repeat center;
+  background-size: 60%;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+#jeevsutra-chat-window {
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  width: 360px;
+  height: 480px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.25);
+  display: none;
+  flex-direction: column;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+#jeevsutra-chat-header {
+  background: maroon;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+}
+
+#jeevsutra-chat-body {
+  flex-grow: 1;
+  padding: 12px;
+  overflow-y: auto;
+  background: #fefefe;
+}
+
+#jeevsutra-chat-input {
+  display: flex;
+  border-top: 1px solid #ddd;
+  background: #fafafa;
+}
+
+#jeevsutra-chat-input input {
+  flex: 1;
+  border: none;
+  padding: 10px;
+  font-size: 14px;
+  outline: none;
+  background: transparent;
+}
+
+#jeevsutra-chat-input button,
+#jeevsutra-mic-btn {
+  background: maroon;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  cursor: pointer;
+}
