@@ -6,6 +6,9 @@ Version: 1.0.0
 Author: Acharya Imran (Jeevsutra Pvt. Ltd.)
 Author URI: https://www.jeevsutra.com
 License: GPLv2 or later
+GitHub Plugin URI: https://github.com/imran9851/jeevsutra-ai-chatbot
+GitHub Branch: main
+
 */
 
 defined('ABSPATH') || exit;
